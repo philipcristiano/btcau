@@ -1,0 +1,35 @@
+{"1.2.0",
+[{<<"base58">>,{pkg,<<"ae_erl_base58">>,<<"0.0.3">>},1},
+ {<<"ec_utils">>,
+  {git,"https://github.com/hanssv/ec_utils.git",
+       {ref,"9db7c9220ed6e2270d948514c65822be588ac04c"}},
+  0},
+ {<<"hd_keys">>,
+  {git,"https://github.com/philipcristiano/hd_keys.git",
+       {ref,"a6f6bb9c641efa6839cdeab2c9af028db28d257f"}},
+  0},
+ {<<"hex2bin">>,{pkg,<<"hex2bin">>,<<"1.0.0">>},2},
+ {<<"libsecp256k1">>,
+  {git,"https://github.com/philipcristiano/libsecp256k1.git",
+       {ref,"cd921ce3b27ab2d71a629ce9348b57c4f39cd5ab"}},
+  1},
+ {<<"opentelemetry_api">>,{pkg,<<"opentelemetry_api">>,<<"1.2.1">>},0},
+ {<<"opentelemetry_semantic_conventions">>,
+  {pkg,<<"opentelemetry_semantic_conventions">>,<<"0.2.0">>},
+  1},
+ {<<"sha3">>,
+  {git,"https://github.com/aeternity/erlang-sha3",
+       {ref,"b5f27a29ba1179e5907c50d7ec7aa79b2857e981"}},
+  1}]}.
+[
+{pkg_hash,[
+ {<<"base58">>, <<"5442A3C2A05165336D3F9013E1C0DF0CD36A58843CFC4D1C9C0EFD98F364A1BF">>},
+ {<<"hex2bin">>, <<"AAC26EAB998AE80EACEE1C7607C629AB503EBF77A62B9242BAE2B94D47DCB71E">>},
+ {<<"opentelemetry_api">>, <<"7B69ED4F40025C005DE0B74FCE8C0549625D59CB4DF12D15C32FE6DC5076FF42">>},
+ {<<"opentelemetry_semantic_conventions">>, <<"B67FE459C2938FCAB341CB0951C44860C62347C005ACE1B50F8402576F241435">>}]},
+{pkg_hash_ext,[
+ {<<"base58">>, <<"1F868FF19F7F16AD2BE4963210D3B0BB310BE175A2054038397107B7DA876B5E">>},
+ {<<"hex2bin">>, <<"E7012D1D9AADD26E680F0983D26FB8923707F05FAC9688F19F530FA3795E716F">>},
+ {<<"opentelemetry_api">>, <<"6D7A27B7CAD2AD69A09CABF6670514CAFCEC717C8441BEB5C96322BAC3D05350">>},
+ {<<"opentelemetry_semantic_conventions">>, <<"D61FA1F5639EE8668D74B527E6806E0503EFC55A42DB7B5F39939D84C07D6895">>}]}
+].
