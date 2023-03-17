@@ -1,0 +1,15 @@
+name: Main Branch Deploy
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+
+jobs:
+
+  erlang:
+    uses: "philipcristiano/workflows/.github/workflows/rebar3.yml@main"
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
