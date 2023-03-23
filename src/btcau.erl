@@ -1,8 +1,8 @@
 -module(btcau).
 
--export([xpub_to_address/2, pub_to_p2wpkh_in_p2sh/2]).
+-export([pub_to_p2pkh/2, pub_to_p2wpkh_in_p2sh/2]).
 
-xpub_to_address(Xpub, Derivation) ->
+pub_to_p2pkh(Xpub, Derivation) ->
     K = hd_keys:import(Xpub),
 
     % Derive a child key
