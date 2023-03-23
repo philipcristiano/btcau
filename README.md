@@ -20,4 +20,4 @@ Addresses that start with 1
 
 Addresses that start with 3
 
-`btcau:pub_to_p2pkh(XPub, <<"M/...">>)`
+`btcau:pub_to_p2wpkh_in_p2sh(XPub, <<"M/...">>)`
